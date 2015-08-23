@@ -1,4 +1,0 @@
-prompt = 'Enter n \n';
-n = input(prompt);
-a = diag(n,n,n-1);
-for i=
