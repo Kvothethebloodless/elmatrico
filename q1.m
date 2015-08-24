@@ -1,10 +1,4 @@
-prompt = 'Enter a \n';
-a = input(prompt)
-prompt = 'Enter b \n';
-b = input(prompt)
-num = a;
-den = b;
-
+function q1(num,den)
 [c,d,k] = residue(num,den);
 x = (0:.01:45);
 
@@ -17,4 +11,4 @@ for i=(1:n)
     grid on
     hold all
 end
-
+end
