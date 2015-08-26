@@ -1,6 +1,6 @@
-%function[res] = q6(seq)
-seq = '12341212356';
-seq = seq-'0';
+function q6(seq)
+seq = num2str(seq);
+seq = seq-'0'
 
 
 [~,n] = size(seq);
